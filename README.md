@@ -1,1 +1,76 @@
 # Concessionaire-Bateaux-FlashSide
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thynk Unlimited - Concessionnaire de Bateaux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f0f8ff;
+            color: #03396c;
+        }
+        header {
+            background-color: #026494;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.3em;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #03396c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #015380;
+        }
+        footer {
+            background-color: #026494;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thynk Unlimited</h1>
+        <p>Votre concessionnaire de bateaux de confiance</p>
+    </header>
+    <main>
+        <p>
+            Découvrez une large sélection de bateaux neufs et d’occasion, adaptés à tous les profils et budgets. Que vous soyez amateur de balades tranquilles, passionné de sports nautiques ou explorateur des mers, nous avons le bateau idéal pour vous.
+        </p>
+        <p>
+            Notre équipe d’experts est là pour vous guider dans votre choix et vous accompagner à chaque étape, de l’achat à l’entretien. Avec Thynk Unlimited, naviguez en toute confiance et donnez vie à votre passion nautique.
+        </p>
+        <a href="#" class="btn">Explorez nos modèles →</a>
+        <a href="#" class="btn" style="margin-left: 15px;">Contactez-nous →</a>
+    </main>
+    <footer>
+        &copy; 2025 Thynk Unlimited - Tous droits réservés
+    </footer>
+</body>
+</html>
